@@ -101,7 +101,7 @@ fn main() {
     let Test: Nim = Nim::new(n, piles);
     
     println!("Nim sum of the current game: {}", Test.nim_sum());
-    println!("The next player can win?: {}", Test.winning_position());
+    println!("The next player to move can win?: {}", Test.winning_position());
     println!("Current optimal play: {:#?}", Test.next_move());
 
     //println!("Most significant bit value: {}", most_significant_bits(5));
