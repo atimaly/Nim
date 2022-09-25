@@ -1,2 +1,2 @@
 # Nim
-A simple program, which gives back optimal move for the Nim game.
+A simple program, which gives back an optimal move for the Nim game.
